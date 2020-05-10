@@ -1,0 +1,10 @@
+.pagination-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  .anchor-link {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+}

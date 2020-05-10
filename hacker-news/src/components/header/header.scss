@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.header-container {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  background: $primary-color;
+  h2 a {
+    text-decoration: none;
+    color: $white;
+    margin-left: 2rem;
+  }
+  .menu-list {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    .menu-item {
+      margin: 0rem 1rem;
+      cursor: pointer;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
